@@ -112,7 +112,7 @@ if(!isset($_SESSION['uemail']))
 						
 							<?php 
 							$uid=$_SESSION['uid'];
-							$query=mysqli_query($con,"SELECT * FROM `property` WHERE uid='$uid'");
+							$query=mysqli_query($con,"SELECT * FROM `property`  WHERE uid='$uid'");
 								while($row=mysqli_fetch_array($query))
 								{
 							?>
